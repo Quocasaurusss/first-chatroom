@@ -7,7 +7,6 @@
         $insert_result = mysqli_query($connection, $insert_query);
         header("Refresh:0");
     }
-    header("Refresh:10");
     
 ?>
 <!DOCTYPE html>
